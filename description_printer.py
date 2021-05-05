@@ -16,6 +16,7 @@ def get_value_name(v):
     else:
         return str(v)
 
+
 # this class define a printer object for a given player
 class DescriptionPrinter:
     def __init__(self, player):
@@ -34,7 +35,8 @@ class DescriptionPrinter:
     # print out all description and kickers if necessary
     def print_description(self):
         self.set_description()
-        print("{rank} {name} {description}".format(rank=self.rank, name=self.name, description=self.description), end='')
+        print("{rank} {name} {description}".format(rank=self.rank, name=self.name, description=self.description),
+              end='')
         if self.print_kicker and self.kickers is not None:
             self.print_kickers()
         else:

@@ -17,4 +17,4 @@ def get_value(v):
 class Card:
     def __init__(self, value, suit):
         self.suit = suit
-        self.value = self.get_value(value)
+        self.value = get_value(value)

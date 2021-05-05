@@ -2,6 +2,7 @@ from hand_values import *
 from collections import Counter
 from card import Card
 
+
 # sort the list first, start from the biggest value
 def compare_value_list(value1, value2):
     list1 = sorted(list(set(value1)), reverse=True)
