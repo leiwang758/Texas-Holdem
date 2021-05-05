@@ -72,7 +72,7 @@ class DescriptionPrinter:
                 else:
                     kickers.append(key)
             self.description = "Three {name}s".format(name=triple_name)
-            self.kickers = ' '.join(kickers)
+            self.kickers = kickers
         elif self.score == STRAIGHT:
             self.description = "Straight {name}".format(name=self.value_names[0])
             self.kickers = None
@@ -103,4 +103,4 @@ class DescriptionPrinter:
 
     # print out a formatted kicker info
     def print_kickers(self):
-        print(", with {kickers} as kicker".format(kickers=', '.join(self.kickers)))
+        print(", with {kickers} as kicker(s)".format(kickers=', '.join(self.kickers)))
