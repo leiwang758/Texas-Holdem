@@ -5,7 +5,7 @@ This is texas hold'em ranking program wrote by Lei Wang
 Python 3
 
 # Run Program
- - python3 texas_holdem.py
- - input community card and player hand of as required
- - program will rank each player and print out the ranking
+ - In linux, run python3 texas_holdem.py
+ - Input the community cards and players' hand of cards as required
+ - Program will rank each player and print out the ranking info
 
