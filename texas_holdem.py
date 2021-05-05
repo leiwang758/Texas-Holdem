@@ -75,14 +75,16 @@ def compare(player1, player2):
 
 
 if __name__ == '__main__':
-    # uncomment this and comment get_user_input() to use the sample input
-    print("\n\n=====================================================")
-    print("================== Texas Hold'em ====================")
-    print("=====================================================\n\n")
-    c, p_list = ['KS', 'AD', '3H', '7C', 'TD'], [['John', '9H', '7S'], ['Sam', 'AC', 'KH'], ['Becky', 'JD', 'QC'],
-                                                 ['Lei', 'AD', 'QC'], ['Leii', 'KS', '3H']]
-    # get user input for community card and players' hand
-    #c, p_list = get_user_input()
+    ## uncomment this and comment get_user_input() to use the sample input
+    # print("\n\n=====================================================")
+    # print("================== Texas Hold'em ====================")
+    # print("=====================================================\n\n")
+    # c, p_list = ['KS', 'AD', '3H', '7C', 'TD'], [['John', '9H', '7S'], ['Sam', 'AC', 'KH'], ['Becky', 'JD', 'QC'],
+    #                                              ['Lei', 'AD', 'QC'], ['Leii', 'KS', '3H']]
+
+
+    ## get user input for community card and players' hand
+    c, p_list = get_user_input()
     community_card = CommunityCard(c)
 
     # create a list of player object
