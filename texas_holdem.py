@@ -19,9 +19,9 @@ def validate_input_card(input_card):
 
 # get user input and validate it
 def get_user_input():
-    print("=====================================================")
+    print("\n\n=====================================================")
     print("================== Texas Hold'em ====================")
-    print("=====================================================\n")
+    print("=====================================================\n\n")
     while True:
         community_cards = list(map(str, input("Please enter the community card (separated by space):\n").split()))
         if len(community_cards) != 5 or not all(validate_input_card(c) for c in community_cards):
@@ -46,7 +46,7 @@ def get_user_input():
                 player_list.append(player)
                 i += 1
 
-            print("Input complete!")
+            print("Input complete!\n\n")
             return community_cards, player_list
 
 
@@ -76,10 +76,13 @@ def compare(player1, player2):
 
 if __name__ == '__main__':
     # uncomment this and comment get_user_input() to use the sample input
-    # c, p_list = ['KS', 'AD', '3H', '7C', 'TD'], [['John', '9H', '7S'], ['Sam', 'AC', 'KH'], ['Becky', 'JD', 'QC'],
-    #                                              ['Lei', 'AD', 'QC'], ['Leii', 'KS', '3H']]
+    print("\n\n=====================================================")
+    print("================== Texas Hold'em ====================")
+    print("=====================================================\n\n")
+    c, p_list = ['KS', 'AD', '3H', '7C', 'TD'], [['John', '9H', '7S'], ['Sam', 'AC', 'KH'], ['Becky', 'JD', 'QC'],
+                                                 ['Lei', 'AD', 'QC'], ['Leii', 'KS', '3H']]
     # get user input for community card and players' hand
-    c, p_list = get_user_input()
+    #c, p_list = get_user_input()
     community_card = CommunityCard(c)
 
     # create a list of player object
@@ -89,5 +92,7 @@ if __name__ == '__main__':
     rank_players(player_list)
 
     # print out the ranking info, including kickers if necessary
+    print("======================= Rank ========================")
     for p in player_list:
         DescriptionPrinter(p).print_description()
+    print("=====================================================")

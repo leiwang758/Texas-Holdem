@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5c89d3f-af13-449c-bd83-13e259607cab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texas_holdem.py" beforeDir="false" afterPath="$PROJECT_DIR$/texas_holdem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <workItem from="1620063816471" duration="12178000" />
       <workItem from="1620092544548" duration="869000" />
       <workItem from="1620146933132" duration="19983000" />
-      <workItem from="1620245514128" duration="3822000" />
+      <workItem from="1620245514128" duration="4197000" />
     </task>
     <servers />
   </component>
@@ -152,38 +152,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1157" height="572" key="GridCell.Tab.0.bottom" timestamp="1620249257392">
+    <state width="1157" height="572" key="GridCell.Tab.0.bottom" timestamp="1620249736689">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249257392" />
-    <state width="1157" height="572" key="GridCell.Tab.0.center" timestamp="1620249257392">
+    <state width="1157" height="572" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249736689" />
+    <state width="1157" height="572" key="GridCell.Tab.0.center" timestamp="1620249736689">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="572" key="GridCell.Tab.0.center/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249257392" />
-    <state width="1157" height="572" key="GridCell.Tab.0.left" timestamp="1620249257392">
+    <state width="1157" height="572" key="GridCell.Tab.0.center/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249736689" />
+    <state width="1157" height="572" key="GridCell.Tab.0.left" timestamp="1620249736689">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="572" key="GridCell.Tab.0.left/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249257392" />
-    <state width="1157" height="572" key="GridCell.Tab.0.right" timestamp="1620249257392">
+    <state width="1157" height="572" key="GridCell.Tab.0.left/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249736689" />
+    <state width="1157" height="572" key="GridCell.Tab.0.right" timestamp="1620249736689">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="572" key="GridCell.Tab.0.right/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249257392" />
-    <state width="1157" height="699" key="GridCell.Tab.1.bottom" timestamp="1620246961841">
+    <state width="1157" height="572" key="GridCell.Tab.0.right/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249736689" />
+    <state width="1157" height="699" key="GridCell.Tab.1.bottom" timestamp="1620249662936">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="699" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620246961841" />
-    <state width="1157" height="699" key="GridCell.Tab.1.center" timestamp="1620246961841">
+    <state width="1157" height="699" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249662936" />
+    <state width="1157" height="699" key="GridCell.Tab.1.center" timestamp="1620249662936">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="699" key="GridCell.Tab.1.center/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620246961841" />
-    <state width="1157" height="699" key="GridCell.Tab.1.left" timestamp="1620246961841">
+    <state width="1157" height="699" key="GridCell.Tab.1.center/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249662936" />
+    <state width="1157" height="699" key="GridCell.Tab.1.left" timestamp="1620249662935">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="699" key="GridCell.Tab.1.left/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620246961841" />
-    <state width="1157" height="699" key="GridCell.Tab.1.right" timestamp="1620246961841">
+    <state width="1157" height="699" key="GridCell.Tab.1.left/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249662935" />
+    <state width="1157" height="699" key="GridCell.Tab.1.right" timestamp="1620249662936">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
-    <state width="1157" height="699" key="GridCell.Tab.1.right/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620246961841" />
+    <state width="1157" height="699" key="GridCell.Tab.1.right/0.0.1920.1080/-1200.-853.1200.1920@-1200.-853.1200.1920" timestamp="1620249662936" />
     <state x="-904" y="-69" key="com.intellij.ide.util.TipDialog" timestamp="1620245524039">
       <screen x="-1200" y="-853" width="1200" height="1920" />
     </state>
@@ -192,7 +192,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ArterysTexasHoldem$player.coverage" NAME="player Coverage Results" MODIFIED="1620074997079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ArterysTexasHoldem$check_hands.coverage" NAME="check_hands Coverage Results" MODIFIED="1620075569034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ArterysTexasHoldem$texas_holdem.coverage" NAME="texas_holdem Coverage Results" MODIFIED="1620249246930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ArterysTexasHoldem$texas_holdem.coverage" NAME="texas_holdem Coverage Results" MODIFIED="1620249736682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ArterysTexasHoldem$compare_same_hands.coverage" NAME="tie_breaker Coverage Results" MODIFIED="1620159833382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
