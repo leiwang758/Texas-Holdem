@@ -19,7 +19,9 @@ def validate_input_card(input_card):
 
 # get user input and validate it
 def get_user_input():
-    print("================== Texas Hold'em ====================\n")
+    print("=====================================================")
+    print("================== Texas Hold'em ====================")
+    print("=====================================================\n")
     while True:
         community_cards = list(map(str, input("Please enter the community card (separated by space):\n").split()))
         if len(community_cards) != 5 or not all(validate_input_card(c) for c in community_cards):
